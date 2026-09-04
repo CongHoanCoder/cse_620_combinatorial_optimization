@@ -1,0 +1,974 @@
+[
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.001,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.001,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.001,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.01,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.01,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.01,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.1,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.1,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.1,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.001,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.001,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.001,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.01,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.01,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.01,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.1,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.1,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.1,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.001,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.001,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.001,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.01,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.01,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.01,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.1,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.1,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.1,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Adam",
+    "learning_rate": 0.01,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Adam",
+    "learning_rate": 0.01,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Adam",
+    "learning_rate": 0.01,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Adam",
+    "learning_rate": 0.1,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Adam",
+    "learning_rate": 0.1,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f1_quadratic",
+    "optimizer": "Adam",
+    "learning_rate": 0.1,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.001,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.001,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.001,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.01,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.01,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.01,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.1,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.1,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.1,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.001,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.001,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.001,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.01,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.01,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.01,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.1,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.1,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.1,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.001,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.001,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.001,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.01,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.01,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.01,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.1,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.1,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.1,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Adam",
+    "learning_rate": 0.01,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Adam",
+    "learning_rate": 0.01,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Adam",
+    "learning_rate": 0.01,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Adam",
+    "learning_rate": 0.1,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Adam",
+    "learning_rate": 0.1,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f2_rosenbrock",
+    "optimizer": "Adam",
+    "learning_rate": 0.1,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.001,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.001,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.001,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.01,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.01,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.01,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.1,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.1,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Gradient Descent",
+    "learning_rate": 0.1,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.001,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.001,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.001,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.01,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.01,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.01,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.1,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.1,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Newton Method",
+    "learning_rate": 0.1,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.001,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.001,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.001,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.01,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.01,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.01,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.1,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.1,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "AdaGrad",
+    "learning_rate": 0.1,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Adam",
+    "learning_rate": 0.01,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Adam",
+    "learning_rate": 0.01,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Adam",
+    "learning_rate": 0.01,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Adam",
+    "learning_rate": 0.1,
+    "initial_point": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Adam",
+    "learning_rate": 0.1,
+    "initial_point": [
+      0.5,
+      -1.5
+    ]
+  },
+  {
+    "function": "f3_cosine",
+    "optimizer": "Adam",
+    "learning_rate": 0.1,
+    "initial_point": [
+      3.0,
+      3.0
+    ]
+  }
+]
