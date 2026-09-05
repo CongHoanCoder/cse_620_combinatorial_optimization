@@ -1,6 +1,6 @@
-# Optimization Methods Analysis Report
+# 📊 Optimization Methods Analysis Report
 
-## Executive Summary
+## 📋 Executive Summary
 
 This report analyzes the convergence behavior of four optimization methods (Gradient Descent, Newton's Method, AdaGrad, Adam) on three test functions:
 1. **f1 (Quadratic Bowl)**: f(x,y) = x² + y²
@@ -11,9 +11,9 @@ Each method was tested with 3 initial points and 3 learning rates (0.001, 0.01, 
 
 ---
 
-## Key Findings by Function
+## 🔍 Key Findings by Function
 
-### f1: Quadratic Bowl (Convex, Well-conditioned)
+### 🟢 f1: Quadratic Bowl (Convex, Well-conditioned)
 
 | Optimizer | Best LR | Iterations | Convergence Rate | Notes |
 |-----------|---------|------------|------------------|-------|
@@ -22,11 +22,11 @@ Each method was tested with 3 initial points and 3 learning rates (0.001, 0.01, 
 | AdaGrad | 0.1 | ~867 | 67% | Adaptive LR slows down on simple convex; accumulates squared gradients |
 | Adam | 0.1 | ~209 | 100% (lr≥0.01) | Momentum helps but overkill for simple quadratic |
 
-**Critical Observation**: Newton's method with lr=1.0 should converge in exactly **1 iteration** for a pure quadratic function. The implementation uses damped learning rates (lr=0.01, 0.1) which artificially slows convergence. With lr=1.0, Newton reaches the optimum in 1 step.
+**💡 Critical Observation**: Newton's method with lr=1.0 should converge in exactly **1 iteration** for a pure quadratic function. The implementation uses damped learning rates (lr=0.01, 0.1) which artificially slows convergence. With lr=1.0, Newton reaches the optimum in 1 step.
 
 ---
 
-### f2: Rosenbrock (Non-convex, Ill-conditioned, Narrow Valley)
+### 🟡 f2: Rosenbrock (Non-convex, Ill-conditioned, Narrow Valley)
 
 | Optimizer | Best LR | Iterations | Convergence Rate | Notes |
 |-----------|---------|------------|------------------|-------|
@@ -35,7 +35,7 @@ Each method was tested with 3 initial points and 3 learning rates (0.001, 0.01, 
 | AdaGrad | All | 2000+ (no conv) | 0% | Accumulates large gradients → vanishing effective step size |
 | Adam | 0.1 | ~2000 (near conv) | ~0% | Better than GD/AdaGrad but struggles with valley geometry |
 
-**Key Phenomena Observed**:
+**🎯 Key Phenomena Observed**:
 - **GD Zigzagging**: With lr=0.001, GD makes slow progress along the valley floor but oscillates across the steep walls
 - **Divergence**: lr=0.01 and 0.1 cause numerical overflow (NaN) due to exponential growth in steep directions
 - **Newton's Superiority**: Only Newton consistently converges - it uses Hessian to navigate the curved valley
@@ -43,7 +43,7 @@ Each method was tested with 3 initial points and 3 learning rates (0.001, 0.01, 
 
 ---
 
-### f3: Cosine Bumps (Multimodal, Non-convex)
+### 🔴 f3: Cosine Bumps (Multimodal, Non-convex)
 
 | Optimizer | Best LR | Iterations | Convergence Rate | Notes |
 |-----------|---------|------------|------------------|-------|
@@ -52,7 +52,7 @@ Each method was tested with 3 initial points and 3 learning rates (0.001, 0.01, 
 | AdaGrad | 0.1 | ~253 | 100% | Slow due to gradient accumulation; needs high LR |
 | Adam | 0.01 | ~263 | 100% | Momentum helps escape shallow minima |
 
-**Multiple Minima Behavior**:
+**🎯 Multiple Minima Behavior**:
 - Global minimum: f ≈ -3.618 at (±2.596, ±2.596) and permutations
 - Local minimum: f ≈ 8.191 at (0, ±2.596) and permutations
 - **Newton from (0.5, -1.5)** converges to f=8.191 (local min) - gets trapped!
@@ -61,9 +61,9 @@ Each method was tested with 3 initial points and 3 learning rates (0.001, 0.01, 
 
 ---
 
-## Hyperparameter Sensitivity Analysis
+## ⚙️ Hyperparameter Sensitivity Analysis
 
-### Learning Rate Effects
+### 📈 Learning Rate Effects
 
 | Function | GD (lr=0.001) | GD (lr=0.01) | GD (lr=0.1) |
 |----------|---------------|--------------|-------------|
@@ -73,7 +73,7 @@ Each method was tested with 3 initial points and 3 learning rates (0.001, 0.01, 
 
 **Pattern**: Higher learning rates work for well-conditioned problems (f1, f3) but cause instability for ill-conditioned problems (f2).
 
-### Newton's Method Damping
+### 🔧 Newton's Method Damping
 
 Newton's method with lr<1 acts as damped Newton. For f1 (quadratic):
 - lr=1.0: 1 iteration (theoretical optimum)
@@ -85,9 +85,9 @@ For f2 (Rosenbrock): lr=0.1 converges ~8x faster than lr=0.01.
 
 ---
 
-## Comparative Performance Summary
+## 📈 Comparative Performance Summary
 
-### Convergence Speed (Iterations to Tolerance)
+### ⚡ Convergence Speed (Iterations to Tolerance)
 
 ```
 f1 (Quadratic):
@@ -110,7 +110,7 @@ f3 (Cosine):
   Adam (lr=0.1) ~210 iter
 ```
 
-### Robustness Across Initial Points
+### 🛡️ Robustness Across Initial Points
 
 | Optimizer | f1 | f2 | f3 |
 |-----------|----|----|----|
@@ -123,38 +123,38 @@ f3 (Cosine):
 
 ---
 
-## Theoretical Explanations
+## 🧠 Theoretical Explanations
 
-### Why Newton Excels on Rosenbrock
+### 🎯 Why Newton Excels on Rosenbrock
 The Rosenbrock function has a curved valley with high curvature across the valley and low curvature along it. The Hessian captures this geometry, allowing Newton to take large steps along the valley floor while correcting for curvature. GD can only take small steps limited by the highest curvature (steep walls).
 
-### Why AdaGrad Struggles on Rosenbrock
+### 📉 Why AdaGrad Struggles on Rosenbrock
 AdaGrad accumulates squared gradients: Gₜ = Σ gᵢ². In Rosenbrock's valley, gradients across the walls are very large, causing Gₜ to grow rapidly. The effective step size becomes η/√Gₜ → 0, stalling progress along the valley floor.
 
-### Why Adam Nearly Works on Rosenbrock
+### 🤖 Why Adam Nearly Works on Rosenbrock
 Adam's bias-corrected momentum (m̂) and adaptive scaling (v̂) help maintain momentum along the valley. However, the second moment estimate v̂ still grows large from cross-valley gradients, limiting step sizes. With lr=0.1 it nearly converges but needs more iterations.
 
-### Why GD is Fastest on Cosine Bumps
+### 🏃 Why GD is Fastest on Cosine Bumps
 For multimodal functions with many local minima, simple GD with large LR can "jump over" shallow minima. The cosine bumps have period 2π with depth ~10, while the quadratic term grows unbounded. Large steps help escape local traps.
 
 ---
 
-## Visualizations Generated
+## 📊 Visualizations Generated
 
 The following plots were created for each function and initial point:
 
-1. **Contour plots with optimization paths** (`{func}_initial_{x}_{y}.png`)
+1. **🗺️ Contour plots with optimization paths** (`{func}_initial_{x}_{y}.png`)
    - 4×3 grid showing all 4 optimizers × 3 learning rates
    - Red path shows optimization trajectory
    - Green dot = start, Red dot = end
 
-2. **Convergence curves** (`{func}_convergence_initial_{x}_{y}.png`)
+2. **📈 Convergence curves** (`{func}_convergence_initial_{x}_{y}.png`)
    - Function value vs iteration for each optimizer/LR combination
    - Log scale for positive values, linear for negative
 
 ---
 
-## Recommendations
+## 💡 Recommendations
 
 1. **For well-conditioned convex problems**: Use Gradient Descent with tuned LR, or Newton with lr=1.0
 2. **For ill-conditioned problems (narrow valleys)**: Newton's method is superior; use damping (lr<1) for stability
@@ -166,17 +166,9 @@ The following plots were created for each function and initial point:
 
 ---
 
-## Numerical Notes
+## ⚠️ Numerical Notes
 
 - **Overflow warnings** in Rosenbrock: Expected for large x values during divergence
 - **Newton's 1-step convergence on f1**: Requires lr=1.0; the experiment used lr≤0.1 for fair comparison
 - **NaN values**: Indicate numerical divergence (gradient explosion)
 
----
-
-## Files Generated
-
-- `optimization_experiment.py` - Main experiment code
-- `ANALYSIS_REPORT.md` - This report
-- 18 contour plot images (3 functions × 3 initial points)
-- 9 convergence curve images (3 functions × 3 initial points)
