@@ -154,7 +154,7 @@ The following plots were created for each function and initial point:
 
 ---
 
-## 💡 Recommendations
+<!-- ## 💡 Recommendations
 
 1. **For well-conditioned convex problems**: Use Gradient Descent with tuned LR, or Newton with lr=1.0
 2. **For ill-conditioned problems (narrow valleys)**: Newton's method is superior; use damping (lr<1) for stability
@@ -170,5 +170,5 @@ The following plots were created for each function and initial point:
 
 - **Overflow warnings** in Rosenbrock: Expected for large x values during divergence
 - **Newton's 1-step convergence on f1**: Requires lr=1.0; the experiment used lr≤0.1 for fair comparison
-- **NaN values**: Indicate numerical divergence (gradient explosion)
+- **NaN values**: Indicate numerical divergence (gradient explosion) -->
 
